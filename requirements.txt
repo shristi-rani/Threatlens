@@ -2,3 +2,4 @@ streamlit
 pymongo
 pandas
 scikit-learn
+plotly
