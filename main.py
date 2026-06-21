@@ -1,6 +1,6 @@
 import streamlit as st
 import re
-#import os
+import os
 import pymongo
 import pandas as pd
 import pickle
@@ -15,7 +15,7 @@ from sklearn.metrics import accuracy_score
 from datetime import datetime
 import plotly.express as px
 # ---------------- DATABASE ----------------
-#MONGO_URI = os.environ["mongodb+srv://shristir135_db_user:<CPkRapKdAMJLQ1OW>@cluster0.wrldbuv.mongodb.net/?appName=Cluster0"]
+MONGO_URI = os.environ["mongodb+srv://shristir135_db_user:<CPkRapKdAMJLQ1OW>@cluster0.wrldbuv.mongodb.net/?appName=Cluster0"]
 conn=pymongo.MongoClient("mongodb+srv://shristir135_db_user:<CPkRapKdAMJLQ1OW>@cluster0.wrldbuv.mongodb.net/?appName=Cluster0")
 mydb=conn["threatlens"]
 my=mydb["user"]
