@@ -53,6 +53,13 @@ section[data-testid="stSidebar"] * {
     border-radius: 12px;
     font-weight: bold;
     height: 45px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+}
+.stButton > button:hover {
+    background-color: #1d4ed8;
+    color: white;
 }
 
 /* Text Input & TextArea */
