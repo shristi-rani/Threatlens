@@ -1,71 +1,98 @@
-# 🛡️ ThreatLens - AI Powered Phishing URL Detection System
+<div align="center">
 
-ThreatLens is an AI-powered phishing URL detection web application that helps users identify whether a website URL is **Safe** or **Phishing** using Machine Learning.
+# 🛡️ ThreatLens
 
-The application is built with **Python**, **Streamlit**, **Scikit-learn**, and **MongoDB Atlas**, providing secure user authentication, scan history, profile management, and real-time phishing detection.
+### AI-Powered Phishing URL Detection System
+
+Detect malicious websites instantly using **Machine Learning**, **Streamlit**, and **MongoDB Atlas**.
+
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)](https://streamlit.io/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)](https://scikit-learn.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)](https://www.mongodb.com/)
+[![License](https://img.shields.io/badge/License-Educational-blue)]()
+
+### 🚀 Live Demo
+
+### 🌐 https://threatlens-url-detect.streamlit.app/
+
+</div>
 
 ---
 
-## 🚀 Features
+# 📖 About
+
+ThreatLens is an AI-powered phishing URL detection system that helps users identify whether a website URL is **Safe** or **Phishing** using Machine Learning.
+
+The application combines **Logistic Regression**, **TF-IDF Vectorization**, **MongoDB Atlas**, and **Streamlit** to provide a secure and interactive phishing detection platform.
+
+---
+
+# ✨ Features
 
 - 🔐 User Registration & Login
-- 🔒 Secure Password Hashing using bcrypt
+- 🔒 Secure Password Hashing (bcrypt)
 - 👤 User Profile Management
 - ✏️ Update Name
 - 🔑 Change Password
 - 🗑️ Delete Account
 - 🚪 Logout
 - 🤖 AI-Based URL Detection
-- 📊 Risk Score Calculation
+- 📊 Risk Score Prediction
 - 🔍 Threat Analysis
-- 📈 Dashboard Statistics
+- 📈 Dashboard Analytics
 - 📋 Scan History
 - 🔎 Search Scan History
-- 📥 Download Scan History as CSV
+- 📥 Download Scan History (CSV)
 - ☁️ MongoDB Atlas Integration
 - 🌐 Streamlit Cloud Deployment
-- 🎨 Modern Responsive UI
+- 🎨 Responsive & Modern UI
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Tech Stack
 
-- Python
-- Streamlit
-- Scikit-learn
-- Logistic Regression
-- TF-IDF Vectorizer
-- Pandas
-- Plotly
-- MongoDB Atlas
-- PyMongo
-- bcrypt
+| Technology | Purpose |
+|------------|----------|
+| Python | Programming Language |
+| Streamlit | Web Application |
+| Scikit-learn | Machine Learning |
+| Logistic Regression | URL Classification |
+| TF-IDF Vectorizer | Feature Extraction |
+| Pandas | Data Processing |
+| Plotly | Dashboard Charts |
+| MongoDB Atlas | Cloud Database |
+| PyMongo | Database Connection |
+| bcrypt | Password Security |
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 ThreatLens/
 │
+├── .streamlit/
+│   └── config.toml
+│
+├── screenshots/
+│
 ├── main.py
-├── new_data_urls.csv
 ├── logo.png
+├── new_data_urls.csv
 ├── requirements.txt
 ├── README.md
-├── .gitignore
-└── .streamlit/
-    └── config.toml
+└── .gitignore
 ```
 
 ---
 
-## ⚙️ Installation
+# 🚀 Installation
 
 Clone the repository
 
 ```bash
-git clone https://github.com/shristi-rani/ThreatLens.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/ThreatLens.git
 ```
 
 Go to project folder
@@ -88,59 +115,63 @@ streamlit run main.py
 
 ---
 
-## 📊 Machine Learning Model
+# 🤖 Machine Learning Model
 
-The phishing detection model uses:
+The phishing detection model is built using:
 
 - TF-IDF Vectorizer
-- Logistic Regression Classifier
+- Logistic Regression
 
 The model predicts whether a URL is:
 
 - ✅ Safe
 - 🚨 Phishing
 
-It also generates a Risk Score and Threat Analysis based on URL characteristics.
+Additionally, the system generates:
+
+- 🎯 Risk Score
+- 🔍 Threat Analysis
 
 ---
 
-## 🗄️ Database
+# 🗄️ Database
 
-MongoDB Atlas is used to store:
+MongoDB Atlas stores:
 
 - User Accounts
 - Encrypted Passwords
 - Scan History
-- User Profile Information
+- Profile Information
 
 ---
 
-## 🔐 Security Features
+# 🔐 Security
 
 - Password Hashing using bcrypt
-- Secure User Authentication
+- Secure Login Authentication
 - MongoDB Atlas Cloud Database
 - URL Validation
 - Threat Pattern Analysis
 
 ---
 
-## 📸 Application Modules
+# 📊 Application Modules
 
-- Home
-- Register
-- Login
-- Dashboard
-- URL Scanner
-- Threat Analysis
-- Scan History
-- User Profile
-- Password Update
-- Account Management
+- 🏠 Home
+- 📝 Register
+- 🔐 Login
+- 🚀 Dashboard
+- 🔍 URL Scanner
+- 📈 Threat Analysis
+- 📋 Scan History
+- 👤 Profile
+- 🔑 Password Management
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
+
+> Add screenshots inside the `screenshots` folder.
 
 ### 🏠 Home Page
 
@@ -178,40 +209,44 @@ MongoDB Atlas is used to store:
 
 ---
 
-### 👤 User Profile
+### 👤 Profile
 
 ![Profile](screenshots/profile.png)
 
-## 📌 Future Improvements
+---
+
+# 🔮 Future Enhancements
 
 - Deep Learning Based Detection
+- WHOIS Lookup
 - Domain Reputation API
-- WHOIS Information
-- Blacklist Checking
+- Blacklist Integration
 - Browser Extension
 - Email Phishing Detection
 - Real-time Threat Intelligence
 
 ---
 
-# 🛡️ ThreatLens - AI Powered Phishing URL Detection System
+# 👩‍💻 Developer
 
-### 🚀 Live Application
+**Shristi Kansyakar**
 
-👉 **https://threatlens-url-detect.streamlit.app/**
+Bachelor of Computer Applications (BCA)
 
-ThreatLens is an AI-powered phishing URL detection system that uses Machine Learning to classify URLs as **Safe** or **Phishing**. The application provides secure user authentication, profile management, scan history, threat analysis, and risk scoring through an interactive Streamlit interface.
-
----
-
-## 👩‍💻 Developer
-
-**Shristi Rani**
-
-Bachelor in Informatiom Technology (B.SC IT)
+GitHub: https://github.com/YOUR_GITHUB_USERNAME
 
 ---
 
-## 📄 License
+# 📜 License
 
 This project is developed for educational and academic purposes.
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project useful, consider giving it a Star!
+
+Made with ❤️ using Python, Streamlit & Machine Learning
+
+</div>
