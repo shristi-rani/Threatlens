@@ -175,38 +175,38 @@ MongoDB Atlas stores:
 
 ### 🏠 Home Page
 
-![Home](screenshots/home.png)
+![Home](screenshots/home.jpeg)
 
 ---
 
 ### 🔐 Login Page
 
-![Login](screenshots/login.png)
+![Login](screenshots/login.jpeg)
 
 ---
 
 ### 📝 Register Page
 
-![Register](screenshots/register.png)
+![Register](screenshots/register.jpeg)
 
 ---
 
 ### 🚀 Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.jpeg)
 
 ---
 
 ### 🔍 Sidebar
 
-![Scanner](screenshots/scan.png)
+![Scanner](screenshots/scan.jpeg)
 
 
 ---
 
 ### 👤 Profile
 
-![Profile](screenshots/profile.png)
+![Profile](screenshots/profile.jpeg)
 
 ---
 
