@@ -194,6 +194,16 @@ MongoDB Atlas is used to store:
 
 ---
 
+# 🛡️ ThreatLens - AI Powered Phishing URL Detection System
+
+### 🚀 Live Application
+
+👉 **https://threatlens-url-detect.streamlit.app/**
+
+ThreatLens is an AI-powered phishing URL detection system that uses Machine Learning to classify URLs as **Safe** or **Phishing**. The application provides secure user authentication, profile management, scan history, threat analysis, and risk scoring through an interactive Streamlit interface.
+
+---
+
 ## 👩‍💻 Developer
 
 **Shristi Rani**
