@@ -1,6 +1,8 @@
 streamlit
-pymongo
 pandas
+numpy
 scikit-learn
 plotly
+pymongo
+bcrypt
 dnspython
