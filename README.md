@@ -199,7 +199,7 @@ MongoDB Atlas stores:
 
 ### 🔍 Sidebar
 
-![Scanner](screenshots/scan.jpeg)
+![Sidebar](screenshots/sidebar.jpeg)
 
 
 ---
