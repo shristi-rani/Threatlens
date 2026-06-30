@@ -197,15 +197,10 @@ MongoDB Atlas stores:
 
 ---
 
-### 🔍 URL Scanner
+### 🔍 Sidebar
 
 ![Scanner](screenshots/scan.png)
 
----
-
-### 📋 Scan History
-
-![History](screenshots/history.png)
 
 ---
 
