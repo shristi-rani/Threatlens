@@ -229,11 +229,11 @@ MongoDB Atlas stores:
 
 # 👩‍💻 Developer
 
-**Shristi Kansyakar**
+**Shristi Rani**
 
-Bachelor of Computer Applications (BCA)
+Bachelor in Information Technology (B.Sc IT)
 
-GitHub: https://github.com/YOUR_GITHUB_USERNAME
+GitHub: https://github.com/shristi-rani
 
 ---
 
