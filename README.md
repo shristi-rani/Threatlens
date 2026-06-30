@@ -1,105 +1,207 @@
+# 🛡️ ThreatLens - AI Powered Phishing URL Detection System
 
-# 🛡️ ThreatLens
+ThreatLens is an AI-powered phishing URL detection web application that helps users identify whether a website URL is **Safe** or **Phishing** using Machine Learning.
 
-## AI Powered Phishing URL Detection System
-
-ThreatLens is an AI-based phishing URL detection system developed using Python Streamlit and MongoDB.
-
-The project helps users identify whether a website URL is safe or potentially malicious using Machine Learning techniques.
-
-
-
-# 2️⃣ About Project
-
-This project detects phishing URLs using Machine Learning algorithms.
-
-Users can:
-
-- Signup/Login
-- Scan URLs
-- Detect phishing websites
-- Get prediction results instantly
+The application is built with **Python**, **Streamlit**, **Scikit-learn**, and **MongoDB Atlas**, providing secure user authentication, scan history, profile management, and real-time phishing detection.
 
 ---
 
-# 3️⃣ Purpose / Advantages / Applications
+## 🚀 Features
 
-## Purpose
-
-To improve cyber security awareness and detect phishing websites.
-
-## Advantages
-
-- Fast URL Detection
-- AI-based Prediction
-- User Friendly Interface
-- MongoDB Database Integration
-- Secure Login System
-
-## Applications
-
-- Cyber Security Systems
-- Fraud Website Detection
-- Educational AI Projects
-- Phishing Detection Tools
+- 🔐 User Registration & Login
+- 🔒 Secure Password Hashing using bcrypt
+- 👤 User Profile Management
+- ✏️ Update Name
+- 🔑 Change Password
+- 🗑️ Delete Account
+- 🚪 Logout
+- 🤖 AI-Based URL Detection
+- 📊 Risk Score Calculation
+- 🔍 Threat Analysis
+- 📈 Dashboard Statistics
+- 📋 Scan History
+- 🔎 Search Scan History
+- 📥 Download Scan History as CSV
+- ☁️ MongoDB Atlas Integration
+- 🌐 Streamlit Cloud Deployment
+- 🎨 Modern Responsive UI
 
 ---
 
-# 4️⃣ Front-End Technologies
+## 🛠️ Technologies Used
 
 - Python
 - Streamlit
-
----
-
-# 5️⃣ Back-End Technologies
-
-- MongoDB
+- Scikit-learn
+- Logistic Regression
+- TF-IDF Vectorizer
+- Pandas
+- Plotly
+- MongoDB Atlas
 - PyMongo
+- bcrypt
 
 ---
 
-# 6️⃣ E-R Diagram
+## 📂 Project Structure
 
-```text
-USER
- ├── Name
- ├── Email
- └── Password
 ```
+ThreatLens/
+│
+├── main.py
+├── new_data_urls.csv
+├── logo.png
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── .streamlit/
+    └── config.toml
+```
+
 ---
-# 7️⃣ DFD (Data Flow Diagram)
-```text
-User
-  ↓
-Streamlit Interface
-  ↓
-Machine Learning Model
-  ↓
-Prediction Result
-  ↓
-Safe / Phishing Detection
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/shristi-rani/ThreatLens.git
 ```
 
-# 8️⃣ Running Project Screenshots
+Go to project folder
 
-- Home Page
-- Signup Page
-- Login Page
+```bash
+cd ThreatLens
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+streamlit run main.py
+```
+
+---
+
+## 📊 Machine Learning Model
+
+The phishing detection model uses:
+
+- TF-IDF Vectorizer
+- Logistic Regression Classifier
+
+The model predicts whether a URL is:
+
+- ✅ Safe
+- 🚨 Phishing
+
+It also generates a Risk Score and Threat Analysis based on URL characteristics.
+
+---
+
+## 🗄️ Database
+
+MongoDB Atlas is used to store:
+
+- User Accounts
+- Encrypted Passwords
+- Scan History
+- User Profile Information
+
+---
+
+## 🔐 Security Features
+
+- Password Hashing using bcrypt
+- Secure User Authentication
+- MongoDB Atlas Cloud Database
+- URL Validation
+- Threat Pattern Analysis
+
+---
+
+## 📸 Application Modules
+
+- Home
+- Register
+- Login
 - Dashboard
-- URL Detection Result
+- URL Scanner
+- Threat Analysis
+- Scan History
+- User Profile
+- Password Update
+- Account Management
 
+---
 
-# 9️⃣ Source Code
+## 📸 Screenshots
 
-The project contains the following files:
+### 🏠 Home Page
 
-- `main.py`
-- `train_model.py`
-- `model.pkl`
-- `vectorizer.pkl`
+![Home](screenshots/home.png)
 
-# 🔟 Project URL
-Live Project Link:
+---
 
-https://threatlens-url-detect.streamlit.app/
+### 🔐 Login Page
+
+![Login](screenshots/login.png)
+
+---
+
+### 📝 Register Page
+
+![Register](screenshots/register.png)
+
+---
+
+### 🚀 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### 🔍 URL Scanner
+
+![Scanner](screenshots/scan.png)
+
+---
+
+### 📋 Scan History
+
+![History](screenshots/history.png)
+
+---
+
+### 👤 User Profile
+
+![Profile](screenshots/profile.png)
+
+## 📌 Future Improvements
+
+- Deep Learning Based Detection
+- Domain Reputation API
+- WHOIS Information
+- Blacklist Checking
+- Browser Extension
+- Email Phishing Detection
+- Real-time Threat Intelligence
+
+---
+
+## 👩‍💻 Developer
+
+**Shristi Rani**
+
+Bachelor in Informatiom Technology (B.SC IT)
+
+---
+
+## 📄 License
+
+This project is developed for educational and academic purposes.
